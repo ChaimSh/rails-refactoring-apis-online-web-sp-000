@@ -1,7 +1,7 @@
 class GithubService
 
    def initialize(access_hash)
-    @access_hash = access_hash    
+    @access_hash = access_hash
    end
 
 
