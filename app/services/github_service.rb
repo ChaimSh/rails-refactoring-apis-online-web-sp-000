@@ -1,7 +1,7 @@
 class GithubService
 
-   def initialize(access_hash)
-    @access_hash = access_hash
+   def initialize(access_hash = nil)
+     @access_token = access_hash["access_token"] if access_hash
    end
 
 
